@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "nbBIviku0IONWOtPd7O7asxkGVvJJSUW+SK8SScDkmhLrtRBM1zWfE4TDm1GHC2wMIgnU6d4Eycu+I3UCVezWQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\ZAFER\\source\\repos\\ReCapProject\\Entities\\Entities.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ZAFER\\.nuget\\packages\\microsoft.netcore.app.ref\\5.0.0\\microsoft.netcore.app.ref.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
