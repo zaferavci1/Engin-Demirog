@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="java.lang.Exception"/>
     <fullyQualifiedTypeName name="oopWithNLayeredApp.dataAccess.jdbcProductDao"/>
     <fullyQualifiedTypeName name="java.lang.Package"/>
     <fullyQualifiedTypeName name="oopWithNLayeredApp.dataAccess.JdbcProductDao"/>
@@ -13,4 +12,20 @@
     <fullyQualifiedTypeName name="oopWithNLayeredApp.core.logging.DatabaseLogger"/>
     <fullyQualifiedTypeName name="oopWithNLayeredApp.core.logging.FileLogger"/>
     <fullyQualifiedTypeName name="oopWithNLayeredApp.core.logging.MailLogger"/>
+    <fullyQualifiedTypeName name="java.lang.Exception"/>
+    <fullyQualifiedTypeName name="dataAccess.courseDao"/>
+    <fullyQualifiedTypeName name="dataAccess.CourseDao"/>
+    <fullyQualifiedTypeName name="Main"/>
+    <fullyQualifiedTypeName name="entities.Course"/>
+    <fullyQualifiedTypeName name="Business.CourseManager"/>
+    <fullyQualifiedTypeName name="dataAccess.HibernateCourseDal"/>
+    <fullyQualifiedTypeName name="core.logging.DatabaseLogger"/>
+    <fullyQualifiedTypeName name="core.logging.MailLogger"/>
+    <fullyQualifiedTypeName name="core.logging.Logger"/>
+    <fullyQualifiedTypeName name="entities.Educator"/>
+    <fullyQualifiedTypeName name="dataAccess.EducatorDao"/>
+    <fullyQualifiedTypeName name="dataAccess.CategoryDao"/>
+    <fullyQualifiedTypeName name="entities.Category"/>
+    <fullyQualifiedTypeName name="Business.CategoryManager"/>
+    <fullyQualifiedTypeName name="dataAccess.HibernateCategoryDal"/>
 </qualifiedTypeNameHistroy>
