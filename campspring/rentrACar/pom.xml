@@ -14,7 +14,11 @@
 	<name>rentrACar</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
+<<<<<<< HEAD
 		<java.version>17</java.version>
+=======
+		<java.version>18</java.version>
+>>>>>>> 85c249c (gun4)
 	</properties>
 	<dependencies>
 <!--		<dependency>-->

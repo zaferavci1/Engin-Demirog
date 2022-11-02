@@ -1,6 +1,8 @@
 content_assist_lru_history=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><history maxLHS\="100" maxRHS\="10"><lhs name\="oopWithNLayeredApp.dataAccess.JdbcProductDao"><rhs name\="oopWithNLayeredApp.dataAccess.JdbcProductDao"/></lhs><lhs name\="oopWithNLayeredApp.entities.Product"><rhs name\="oopWithNLayeredApp.entities.Product"/></lhs><lhs name\="oopWithNLayeredApp.business.IProductManager"><rhs name\="oopWithNLayeredApp.business.IProductManager"/></lhs><lhs name\="oopWithNLayeredApp.dataAccess.ProductDao"><rhs name\="oopWithNLayeredApp.dataAccess.JdbcProductDao"/><rhs name\="oopWithNLayeredApp.dataAccess.HibernateProductDal"/></lhs><lhs name\="oopWithNLayeredApp.core.logging.Logger"><rhs name\="oopWithNLayeredApp.core.logging.DatabaseLogger"/><rhs name\="oopWithNLayeredApp.core.logging.FileLogger"/><rhs name\="oopWithNLayeredApp.core.logging.MailLogger"/></lhs><lhs name\="dataAccess.CourseDao"><rhs name\="dataAccess.HibernateCourseDal"/></lhs><lhs name\="entities.Educator"><rhs name\="entities.Educator"/></lhs><lhs name\="core.logging.Logger"><rhs name\="core.logging.MailLogger"/></lhs><lhs name\="entities.Category"><rhs name\="entities.Category"/></lhs><lhs name\="Business.CategoryManager"><rhs name\="Business.CategoryManager"/></lhs></history>
 content_assist_number_of_computers=17
 eclipse.preferences.version=1
+org.eclipse.jdt.internal.ui.navigator.layout=2
+org.eclipse.jdt.internal.ui.navigator.librariesnode=true
 org.eclipse.jdt.ui.formatterprofiles.version=22
 spelling_locale_initialized=true
 typefilter_migrated_2=true
