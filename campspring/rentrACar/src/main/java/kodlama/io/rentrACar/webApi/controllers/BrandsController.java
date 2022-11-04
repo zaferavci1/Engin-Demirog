@@ -1,12 +1,12 @@
-<<<<<<< HEAD
+
 package kodlama.io.rentrACar.webApi.controllers;
 
 import kodlama.io.rentrACar.business.abstracts.BrandService;
+import kodlama.io.rentrACar.business.requests.CreateBrandRequest;
+import kodlama.io.rentrACar.business.responses.GetAllBrandsResponse;
 import kodlama.io.rentrACar.entities.concretes.Brand;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
@@ -21,35 +21,19 @@ public class BrandsController {
     }
 
     @GetMapping("/getall")
-    public List<Brand> getAll(){
+    public List<GetAllBrandsResponse> getAll(){
         return brandService.getAll();
     }
-}
-=======
-package kodlama.io.rentrACar.webApi.controllers;
 
-import kodlama.io.rentrACar.business.abstracts.BrandService;
-import kodlama.io.rentrACar.entities.concretes.Brand;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
-
-import java.util.List;
-
-@RestController  //annotion
-@RequestMapping("/api/brands")
-public class BrandsController {
-    private BrandService brandService;
-
-    @Autowired
-    public BrandsController(BrandService brandService) {
-        this.brandService = brandService;
+    @PostMapping("/add")
+    public void add(@RequestBody()  CreateBrandRequest createBrandRequest){
+        this.brandService.add(createBrandRequest);
     }
 
-    @GetMapping("/getall")
-    public List<Brand> getAll(){
-        return brandService.getAll();
+    @DeleteMapping("/delete/{id}")
+    public void delete(@PathVariable int id)
+    {
+        this.brandService.delete(id);
     }
 }
->>>>>>> 85c249c (gun4)
+

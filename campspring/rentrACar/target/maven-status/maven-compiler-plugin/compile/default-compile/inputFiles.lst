@@ -1,1 +1,8 @@
-C:\Java\campspring\rentrACar\src\main\java\kodlama\io\rentrACar\RentrACarApplication.java
+C:\Java\Engin Demirog\Engin-Demirog\campspring\rentrACar\src\main\java\kodlama\io\rentrACar\business\responses\GetAllBrandsResponse.java
+C:\Java\Engin Demirog\Engin-Demirog\campspring\rentrACar\src\main\java\kodlama\io\rentrACar\business\concretes\BrandManager.java
+C:\Java\Engin Demirog\Engin-Demirog\campspring\rentrACar\src\main\java\kodlama\io\rentrACar\entities\concretes\Brand.java
+C:\Java\Engin Demirog\Engin-Demirog\campspring\rentrACar\src\main\java\kodlama\io\rentrACar\RentrACarApplication.java
+C:\Java\Engin Demirog\Engin-Demirog\campspring\rentrACar\src\main\java\kodlama\io\rentrACar\business\requests\CreateBrandRequest.java
+C:\Java\Engin Demirog\Engin-Demirog\campspring\rentrACar\src\main\java\kodlama\io\rentrACar\webApi\controllers\BrandsController.java
+C:\Java\Engin Demirog\Engin-Demirog\campspring\rentrACar\src\main\java\kodlama\io\rentrACar\business\abstracts\BrandService.java
+C:\Java\Engin Demirog\Engin-Demirog\campspring\rentrACar\src\main\java\kodlama\io\rentrACar\dataAccess\abstracts\BrandRepository.java

@@ -1,23 +1,11 @@
-<<<<<<< HEAD
-package kodlama.io.rentrACar.dataAccess.abstracts;
 
+package kodlama.io.rentrACar.dataAccess.abstracts;
 import kodlama.io.rentrACar.entities.concretes.Brand;
+import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.List;
 
-
-public interface BrandRepository {
-    List<Brand> getAll();
+public interface BrandRepository extends JpaRepository<Brand,Integer> {
+    //veri tabanında bütün işlemler tamam JpaRepository ile
 }
-=======
-package kodlama.io.rentrACar.dataAccess.abstracts;
 
-import kodlama.io.rentrACar.entities.concretes.Brand;
-
-import java.util.List;
-
-
-public interface BrandRepository {
-    List<Brand> getAll();
-}
->>>>>>> 85c249c (gun4)

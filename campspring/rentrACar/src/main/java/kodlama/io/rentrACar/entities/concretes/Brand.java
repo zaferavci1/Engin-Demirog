@@ -1,76 +1,25 @@
-<<<<<<< HEAD
 package kodlama.io.rentrACar.entities.concretes;
 
-public class Brand {
-    private int id;
-    private String name;
+import lombok.*;
 
-    public Brand() {
-
-    }
-
-
-    public Brand(int id,String name) {
-        this.id=id;
-        this.name = name;
-    }
-
-    public int id() {
-        return id;
-    }
-
-    public void setId(int id) {
-        this.id = id;
-    }
-
-    public String name() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-}
-=======
-package kodlama.io.rentrACar.entities.concretes;
-
-import lombok.AllArgsConstructor;
-import lombok.Data;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
+import javax.persistence.*;
 
 //lombok getter ve setterları kullanmamamızı sağlıyor
+@Table(name = "brands")
 @Getter
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
+@Data
+@Entity
 public class Brand {
 
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name = "id")
     private int id;
+
+    @Column(name = "name")
     private String name;
-    
-    
-    
-    
-/*	public Brand(int id, String name) {
-		super();
-		this.id = id;
-		this.name = name;
-	}*/
-/*	public int getId() {
-		return id;
-	}
-	public void setId(int id) {
-		this.id = id;
-	}
-	public String getName() {
-		return name;
-	}
-	public void setName(String name) {
-		this.name = name;
-	}*/
-
-
 }
->>>>>>> 85c249c (gun4)
+

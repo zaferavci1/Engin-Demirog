@@ -1,1 +1,8 @@
+kodlama\io\rentrACar\business\abstracts\BrandService.class
+kodlama\io\rentrACar\business\concretes\BrandManager.class
+kodlama\io\rentrACar\business\responses\GetAllBrandsResponse.class
+kodlama\io\rentrACar\business\requests\CreateBrandRequest.class
+kodlama\io\rentrACar\entities\concretes\Brand.class
 kodlama\io\rentrACar\RentrACarApplication.class
+kodlama\io\rentrACar\dataAccess\abstracts\BrandRepository.class
+kodlama\io\rentrACar\webApi\controllers\BrandsController.class
