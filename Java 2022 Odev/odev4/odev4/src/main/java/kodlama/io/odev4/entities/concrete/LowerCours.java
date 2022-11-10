@@ -1,8 +1,6 @@
 package kodlama.io.odev4.entities.concrete;
 
 import lombok.*;
-import net.bytebuddy.dynamic.loading.InjectionClassLoader;
-import org.hibernate.annotations.ManyToAny;
 
 import javax.persistence.*;
 import java.util.ArrayList;
@@ -25,12 +23,7 @@ public class LowerCours {
     String name;
 
 
-    /*@ManyToMany
-    private List<Courses> kurs = new ArrayList<Courses>();
 
-    public void addCourses(Courses cours){
-        this.kurs.add(cours);
-    }*/
     @ManyToOne
     @JoinColumn(name = "course_id")
     private Courses course;

@@ -8,5 +8,6 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @Data
 public class CreateLowerCourseRequest {
-    private String name;
+    private String lowerName;
+    private int coursId;
 }
