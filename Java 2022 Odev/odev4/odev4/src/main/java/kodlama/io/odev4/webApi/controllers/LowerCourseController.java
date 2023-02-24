@@ -5,6 +5,8 @@ import kodlama.io.odev4.business.request.CreateCourseRequest;
 import kodlama.io.odev4.business.request.CreateLowerCourseRequest;
 import kodlama.io.odev4.business.response.GetAllCourseResponse;
 import kodlama.io.odev4.business.response.GetAllLowerCourseResponse;
+import kodlama.io.odev4.entities.concrete.Courses;
+import kodlama.io.odev4.entities.concrete.LowerCours;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
@@ -31,4 +33,8 @@ public class LowerCourseController {
         lowerCourseService.Add(lowerCourse);
     }
 
+    @GetMapping("getlowercourse/{id}")
+    public LowerCours getLowerCourse(@PathVariable("id") int name){
+        return lowerCourseService.lowerCours(name);
+    }
 }

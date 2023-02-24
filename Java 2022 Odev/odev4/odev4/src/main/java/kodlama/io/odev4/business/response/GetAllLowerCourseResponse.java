@@ -12,4 +12,5 @@ public class GetAllLowerCourseResponse {
     private int id;
     private String name;
     private Courses course;
+    private String courseName;
 }

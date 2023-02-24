@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="de9f3a08-4902-40e6-b737-df94acb84a83" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../Java 2022 Odev/odev4/odev4/src/main/java/kodlama/io/odev4/business/abstracts/LowerCourseService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java 2022 Odev/odev4/odev4/src/main/java/kodlama/io/odev4/business/abstracts/LowerCourseService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java 2022 Odev/odev4/odev4/src/main/java/kodlama/io/odev4/business/concrete/LowerCourseManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java 2022 Odev/odev4/odev4/src/main/java/kodlama/io/odev4/business/concrete/LowerCourseManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java 2022 Odev/odev4/odev4/src/main/java/kodlama/io/odev4/business/response/GetAllLowerCourseResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java 2022 Odev/odev4/odev4/src/main/java/kodlama/io/odev4/business/response/GetAllLowerCourseResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java 2022 Odev/odev4/odev4/src/main/java/kodlama/io/odev4/entities/concrete/LowerCours.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java 2022 Odev/odev4/odev4/src/main/java/kodlama/io/odev4/entities/concrete/LowerCours.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java 2022 Odev/odev4/odev4/src/main/java/kodlama/io/odev4/webApi/controllers/LowerCourseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java 2022 Odev/odev4/odev4/src/main/java/kodlama/io/odev4/webApi/controllers/LowerCourseController.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="2M8fOaiSCLHvDyBlhbnKBkpBo8b" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../.project" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="de9f3a08-4902-40e6-b737-df94acb84a83" name="Changes" comment="" />
+      <created>1677154098585</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1677154098585</updated>
+    </task>
+    <servers />
+  </component>
+</project>

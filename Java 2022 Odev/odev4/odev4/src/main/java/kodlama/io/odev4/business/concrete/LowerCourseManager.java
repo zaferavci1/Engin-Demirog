@@ -27,25 +27,33 @@ public class LowerCourseManager implements LowerCourseService {
     @Override
     public List<GetAllLowerCourseResponse> getAll() {
         List<LowerCours> lowerCourseList = lowerCourseRepository.findAll();
+        List<Courses> courseList = courseRepository.findAll();
         List<GetAllLowerCourseResponse> getAllLowerCourseResponse = new ArrayList<GetAllLowerCourseResponse>();
+        List<GetAllCourseResponse> getAllCourseResponses = new ArrayList<GetAllCourseResponse>();
+        Courses course = new Courses();
+        for (Courses courses : courseList) {
+            if(courses.getId() == )
+                course = courseList.get(courses.getId());
+        }
+
 
         for (LowerCours lowerCourse : lowerCourseList) {
             GetAllLowerCourseResponse lowerCourseItem = new GetAllLowerCourseResponse(lowerCourse.getId(),lowerCourse.getName(),
-                    lowerCourse.getCourse());
+                    lowerCourse.getCourse(),course.getCourseName());
             getAllLowerCourseResponse.add(lowerCourseItem);
         }
         return getAllLowerCourseResponse;
     }
 
     @Override
-    public LowerCours lowerCours(String name) {
-        List<LowerCours> getIdLowerCourse = lowerCourseRepository.findAll();
-        for (LowerCours course : getIdLowerCourse) {
-            if(name == course.getName()){
-                return course;
+    public LowerCours lowerCours(int id) {
+        List<LowerCours> getNameLowerCourse = lowerCourseRepository.findAll();
+        for (LowerCours lowerCourse : getNameLowerCourse) {
+            if(id == lowerCourse.getId()){
+                return lowerCourse;
             }
         }
-        throw new RuntimeException("Bu isimde de kurs bulunmuyor");
+        throw new RuntimeException("Bu id de kurs bulunmuyor");
     }
 
     @Override

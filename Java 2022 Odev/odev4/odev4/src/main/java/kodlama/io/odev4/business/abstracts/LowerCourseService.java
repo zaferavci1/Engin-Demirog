@@ -9,7 +9,7 @@ import java.util.List;
 public interface LowerCourseService {
 
     List<GetAllLowerCourseResponse> getAll();
-    LowerCours lowerCours(String name);
+    LowerCours lowerCours(int id);
     void Add(CreateLowerCourseRequest createLowerCourseRequest) throws Exception;
     void Delete(int id);
 }
